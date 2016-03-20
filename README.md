@@ -14,12 +14,11 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * C++ compiler: `gcc`
  * C++ version: `C++11`
  * Libraries: `STL` and Boost, demonstrating Boost.Test
- * Code coverage: none
+ * Code coverage: yes
  * Source: multiple files
 
 More complex builds:
- * Use C++14: [travis_qmake_gcc_cpp14_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test)
+ * Use C++14: [travis_qmake_gcc_cpp14_boost_test_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_gcov)
 
 Less complex builds:
- * Use STL and Boost only: [travis_qmake_gcc_cpp11_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost)
- * Use C++98: [travis_qmake_gcc_cpp98_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost)
+ * No code coverage: [travis_qmake_gcc_cpp11_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test)
