@@ -12,6 +12,9 @@ before_install:
 install: sudo apt-get install -qq g++-5
 
 script: 
- - ./build_normal_debug.sh
- - ./build_normal_release.sh
- - ./build_test.sh
+  - ./build_normal_debug.sh
+  - ./build_normal_release.sh
+  - ./build_test.sh
+
+after_success: 
+  - codecov
