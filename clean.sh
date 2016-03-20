@@ -9,3 +9,5 @@ rm travis_qmake_gcc_cpp11_boost_test_gcov_test
 rm *.gcda
 rm *.gcno
 rm *.gcov
+rm -rf debug
+rm -rf release
