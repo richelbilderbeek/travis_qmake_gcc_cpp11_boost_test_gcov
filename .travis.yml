@@ -13,9 +13,9 @@ before_install:
 install: sudo apt-get install -qq g++-5
 
 script: 
-  - ./build_normal_debug.sh
-  - ./build_normal_release.sh
   - ./build_test.sh
+  - ./travis_qmake_gcc_cpp11_boost_test_gcov_test.sh
+  - ./build.sh
   - ./get_code_cov.sh
   - codecov
 
