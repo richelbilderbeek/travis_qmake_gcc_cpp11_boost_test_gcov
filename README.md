@@ -19,7 +19,7 @@ The goal of this project is to have a clean Travis CI build, with specs:
 
 More complex builds:
  * Use C++14: [travis_qmake_gcc_cpp14_boost_test_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_gcov)
- * Add OCLint: [travis_qmake_gcc_cpp11_boost_test_gcov_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_gcov_oclint)
+ * Add OCLint: [travis_qmake_gcc_cpp11_boost_test_gcov_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test_gcov_oclint)
 
 Less complex builds:
  * No code coverage: [travis_qmake_gcc_cpp11_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test)
