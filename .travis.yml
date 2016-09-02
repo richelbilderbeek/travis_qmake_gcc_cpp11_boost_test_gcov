@@ -16,7 +16,7 @@ install:
 
 script: 
   - ./build_test.sh
-  - ./travis_qmake_gcc_cpp11_boost_test_gcov_test.sh
+  - ./travis_qmake_gcc_cpp11_boost_test_gcov_test
   - ./build.sh
   - ./get_code_cov.sh
   - codecov
